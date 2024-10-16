@@ -1,5 +1,5 @@
-can you add a summary about shared buﬀer?
 # Producer-Consumer Problem with a Shared Buffer
+A solution to the classic Producer-Consumer problem using a shared buffer
 
 ## Introduction
 This project demonstrates a solution to the classic **Producer-Consumer problem** using a shared buffer, thread synchronization, and semaphores to manage concurrent access to the buffer. In this problem, producers generate data items and place them into a shared buffer, while consumers remove and process these items. The buffer has a limited capacity, and the program ensures that producers wait if the buffer is full, and consumers wait if the buffer is empty.
